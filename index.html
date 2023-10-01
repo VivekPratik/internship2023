@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Vivek,s Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#"> 
+          <span class="white">PORT</span>
+          <span class="green">folio</span></a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="./Vivek Pratik Resume.pdf">Resume</a></li>
+          <li><a href="https://www.linkedin.com/in/vivek-pratik-1423b721a/">Linkedin</a></li>
+          <li><a href="mailto:pratikvivek007@gmail.com">Mail</a></li>
+          <li><a href="file:///C:/Users/Vivek/OneDrive/Desktop/Internship%202023/Personal%20portfolio/index2.html">Project</a></li>
+          <li><a href="https://www.instagram.com/the_sinhaji/">IG</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Vivek Pratik<br/>a</span><br><span id="element"></span>
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! <br>I'm Vivek Pratik, a passionate and creative web developer . With a strong foundation in front-end development, I'm dedicated to crafting seamless, user-friendly, and visually appealing websites that leave a lasting impression. I've worked on a variety of web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <a href="mailto:pratikvivek007@gmail.com"><button class="mail">Mail</button></a>
+            <a href="tel:+91 9570125138"><button class="call">Call Me</button></a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./working.jpeg" alt="anime" />
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['CONTENT CREATOR' , 'WEB DEVELOPER' ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
